@@ -12,12 +12,12 @@ Open-source firmware for Drapow SK-25 development board based on OpenBK7231N pla
 
 To upload the firmware to the Drapow SK-25 board using a CH341A programmer, make the following wiring connections:
 
-| CH341A Programmer | Drapow SK-25 (OpenBK7231) |
+| CH341A Programmer | Drapow SK-25 (OpenBK7231N) |
 |-------------------|--------------------------|
-| VCC               | 3.3V                     |
+| 3.3V               | 3.3V                     |
 | GND               | GND                      |
-| CS                | GND (Shorted during upload) |
-| CLK               | SWD_CLK                  |
-| DATA              | SWD_IO                   |
+| GND (Shorted during upload)                | CSN                      |
+| TX               | RX                  |
+| RX              | TX                   |
 
-*Note: The CS (Chip Select) pin on the CH341A programmer should be shorted to GND during the upload process to ensure the correct operation.*
+*Note: The CSN pin on the Drapow SK-25 should be shorted to GND during the upload process to ensure the correct operation.*
