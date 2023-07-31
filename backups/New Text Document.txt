@@ -1,0 +1,9 @@
+Device configuration, as extracted from Tuya: 
+- Relay (channel 3) on P8
+- Relay (channel 4) on P26
+- Pair/Toggle All Button on P24
+- WiFi LED on P23
+- Relay (channel 2) on P7
+- Relay (channel 1) on P6
+Device seems to be using CB2S module, which is using BK7231N.
+And the Tuya section starts, as usual, at 2023424
